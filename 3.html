@@ -7,15 +7,15 @@
 
 <body style="margin: 0;">
 
-<div id="p3" style="overflow: hidden; position: relative; width: 909px; height: 1286px;">
+<div id="p3" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
 
 <!-- Begin shared CSS values -->
 <style class="shared-css" type="text/css" >
 .t {
-	-webkit-transform-origin: top left;
-	-moz-transform-origin: top left;
-	-o-transform-origin: top left;
-	-ms-transform-origin: top left;
+	-webkit-transform-origin: bottom left;
+	-moz-transform-origin: bottom left;
+	-o-transform-origin: bottom left;
+	-ms-transform-origin: bottom left;
 	-webkit-transform: scale(0.25);
 	-moz-transform: scale(0.25);
 	-o-transform: scale(0.25);
@@ -25,6 +25,14 @@
 	white-space: pre;
 	overflow: visible;
 }
+.t::-moz-selection {
+	color: transparent;
+	background: rgba(0, 106, 173, 0.4);
+}
+.t::selection {
+	color: transparent;
+	background: rgba(0, 106, 173, 0.4);
+}
 </style>
 <!-- End shared CSS values -->
 
@@ -32,117 +40,142 @@
 <!-- Begin inline CSS -->
 <style type="text/css" >
 
-#t1_3{left:689px;top:475px;letter-spacing:-0.2px;}
-#t2_3{left:701px;top:475px;letter-spacing:0.1px;}
-#t3_3{left:690px;top:518px;letter-spacing:-0.2px;}
-#t4_3{left:702px;top:518px;letter-spacing:0.1px;}
-#t5_3{left:688px;top:561px;letter-spacing:-0.2px;}
-#t6_3{left:700px;top:561px;letter-spacing:0.1px;}
-#t7_3{left:103px;top:487px;word-spacing:0.4px;}
-#t8_3{left:80px;top:501px;word-spacing:0.7px;}
-#t9_3{left:316px;top:88px;letter-spacing:-0.8px;}
-#ta_3{left:275px;top:245px;word-spacing:0.3px;}
-#tb_3{left:276px;top:276px;}
-#tc_3{left:277px;top:327px;word-spacing:0.1px;}
-#td_3{left:276px;top:356px;word-spacing:0.4px;}
-#te_3{left:88px;top:238px;word-spacing:0.3px;}
-#tf_3{left:144px;top:256px;}
-#tg_3{left:153px;top:287px;word-spacing:0.2px;}
-#th_3{left:62px;top:322px;word-spacing:0.2px;}
-#ti_3{left:145px;top:340px;}
-#tj_3{left:154px;top:371px;word-spacing:0.2px;}
-#tk_3{left:505px;top:439px;letter-spacing:-0.9px;}
-#tl_3{left:465px;top:470px;}
-#tm_3{left:472px;top:468px;letter-spacing:-0.7px;}
-#tn_3{left:484px;top:470px;letter-spacing:0.1px;}
-#to_3{left:518px;top:470px;}
-#tp_3{left:528px;top:470px;letter-spacing:-0.1px;word-spacing:0.4px;}
-#tq_3{left:465px;top:492px;letter-spacing:-0.2px;}
-#tr_3{left:465px;top:508px;letter-spacing:-0.2px;word-spacing:0.3px;}
-#ts_3{left:465px;top:525px;letter-spacing:-0.1px;}
-#tt_3{left:465px;top:561px;}
-#tu_3{left:472px;top:559px;letter-spacing:-0.3px;}
-#tv_3{left:481px;top:561px;letter-spacing:-0.1px;}
-#tw_3{left:515px;top:561px;}
-#tx_3{left:525px;top:561px;word-spacing:-0.3px;}
-#ty_3{left:465px;top:582px;letter-spacing:-0.2px;}
-#tz_3{left:465px;top:598px;letter-spacing:-0.2px;}
-#t10_3{left:535px;top:598px;letter-spacing:-0.1px;word-spacing:0.1px;}
-#t11_3{left:465px;top:614px;letter-spacing:-0.1px;word-spacing:-0.1px;}
-#t12_3{left:731px;top:438px;letter-spacing:-0.9px;}
-#t13_3{left:314px;top:424px;letter-spacing:-0.1px;}
-#t14_3{left:314px;top:444px;letter-spacing:-0.1px;}
-#t15_3{left:286px;top:476px;letter-spacing:-0.1px;}
-#t16_3{left:133px;top:127px;word-spacing:0.1px;}
-#t17_3{left:126px;top:161px;letter-spacing:0.1px;word-spacing:-0.2px;}
-#t18_3{left:272px;top:158px;}
-#t19_3{left:278px;top:158px;letter-spacing:-0.1px;word-spacing:0.2px;}
-#t1a_3{left:268px;top:177px;letter-spacing:-0.1px;word-spacing:0.2px;}
-#t1b_3{left:743px;top:177px;}
-#t1c_3{left:753px;top:177px;}
-#t1d_3{left:763px;top:177px;word-spacing:0.1px;}
+#t1_3{left:689px;bottom:604px;letter-spacing:-0.2px;}
+#t2_3{left:701px;bottom:604px;letter-spacing:0.1px;}
+#t3_3{left:690px;bottom:561px;letter-spacing:-0.2px;}
+#t4_3{left:702px;bottom:561px;letter-spacing:0.1px;}
+#t5_3{left:688px;bottom:518px;letter-spacing:-0.2px;}
+#t6_3{left:700px;bottom:518px;letter-spacing:0.1px;}
+#t7_3{left:103px;bottom:592px;word-spacing:0.4px;}
+#t8_3{left:80px;bottom:578px;word-spacing:0.7px;}
+#t9_3{left:316px;bottom:983px;letter-spacing:-0.8px;}
+#ta_3{left:275px;bottom:830px;}
+#tb_3{left:276px;bottom:799px;}
+#tc_3{left:277px;bottom:749px;letter-spacing:-0.1px;word-spacing:0.1px;}
+#td_3{left:378px;bottom:749px;word-spacing:0.1px;}
+#te_3{left:276px;bottom:719px;word-spacing:0.4px;}
+#tf_3{left:88px;bottom:837px;word-spacing:0.3px;}
+#tg_3{left:144px;bottom:819px;}
+#th_3{left:153px;bottom:788px;word-spacing:0.2px;}
+#ti_3{left:62px;bottom:754px;word-spacing:0.2px;}
+#tj_3{left:145px;bottom:735px;}
+#tk_3{left:154px;bottom:705px;word-spacing:0.2px;}
+#tl_3{left:505px;bottom:632px;letter-spacing:-0.9px;}
+#tm_3{left:465px;bottom:606px;}
+#tn_3{left:472px;bottom:613px;letter-spacing:-0.7px;}
+#to_3{left:484px;bottom:606px;letter-spacing:0.1px;}
+#tp_3{left:518px;bottom:606px;}
+#tq_3{left:528px;bottom:606px;letter-spacing:-0.1px;word-spacing:0.4px;}
+#tr_3{left:465px;bottom:585px;letter-spacing:-0.2px;}
+#ts_3{left:465px;bottom:568px;letter-spacing:-0.2px;word-spacing:0.3px;}
+#tt_3{left:465px;bottom:552px;letter-spacing:-0.1px;}
+#tu_3{left:465px;bottom:514px;}
+#tv_3{left:472px;bottom:521px;letter-spacing:-0.3px;}
+#tw_3{left:481px;bottom:514px;letter-spacing:-0.1px;}
+#tx_3{left:515px;bottom:514px;}
+#ty_3{left:525px;bottom:514px;word-spacing:-0.3px;}
+#tz_3{left:465px;bottom:495px;letter-spacing:-0.2px;}
+#t10_3{left:465px;bottom:479px;letter-spacing:-0.1px;word-spacing:0.3px;}
+#t11_3{left:465px;bottom:463px;letter-spacing:-0.1px;word-spacing:-0.1px;}
+#t12_3{left:731px;bottom:634px;letter-spacing:-0.9px;}
+#t13_3{left:285px;bottom:1240px;word-spacing:0.3px;}
+#t14_3{left:305px;bottom:1210px;}
+#t15_3{left:333px;bottom:1210px;letter-spacing:-0.1px;}
+#t16_3{left:333px;bottom:1177px;word-spacing:0.2px;}
+#t17_3{left:333px;bottom:1144px;word-spacing:-0.3px;}
+#t18_3{left:360px;bottom:1110px;}
+#t19_3{left:388px;bottom:1110px;word-spacing:0.2px;}
+#t1a_3{left:388px;bottom:1092px;letter-spacing:0.1px;}
+#t1b_3{left:360px;bottom:1074px;}
+#t1c_3{left:388px;bottom:1074px;word-spacing:0.1px;}
+#t1d_3{left:314px;bottom:648px;letter-spacing:-0.1px;}
+#t1e_3{left:314px;bottom:627px;letter-spacing:-0.1px;}
+#t1f_3{left:284px;bottom:571px;letter-spacing:-0.1px;}
+#t1g_3{left:133px;bottom:948px;word-spacing:0.1px;}
+#t1h_3{left:126px;bottom:915px;letter-spacing:0.1px;word-spacing:-0.2px;}
+#t1i_3{left:272px;bottom:917px;}
+#t1j_3{left:278px;bottom:917px;letter-spacing:-0.1px;word-spacing:0.2px;}
+#t1k_3{left:268px;bottom:899px;letter-spacing:-0.1px;word-spacing:0.2px;}
+#t1l_3{left:743px;bottom:899px;letter-spacing:-0.2px;word-spacing:0.3px;}
+#t1m_3{left:763px;bottom:899px;word-spacing:0.1px;}
+#t1n_3{left:285px;bottom:601px;letter-spacing:-0.1px;}
+#t1o_3{left:285px;bottom:544px;letter-spacing:-0.1px;}
 
 .s1_3{
 	FONT-SIZE: 42.5px;
-	FONT-FAMILY: TimesNewRoman_p;
-	color: rgb(67,67,67);
+	FONT-FAMILY: TimesNewRoman_q;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s2_3{
 	FONT-SIZE: 42.5px;
-	FONT-FAMILY: 'Times New Roman', Times, serif;
-	color: rgb(67,67,67);
+	FONT-FAMILY: TimesNewRoman_r;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s3_3{
 	FONT-SIZE: 67.5px;
-	FONT-FAMILY: CalibriLight_h;
-	color: rgb(67,67,67);
+	FONT-FAMILY: CalibriLight_i;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s4_3{
 	FONT-SIZE: 55px;
-	FONT-FAMILY: 'Times New Roman', Times, serif;
-	color: rgb(67,67,67);
+	FONT-FAMILY: TimesNewRoman_r;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s5_3{
 	FONT-SIZE: 55px;
-	FONT-FAMILY: TimesNewRoman_p;
-	color: rgb(67,67,67);
+	FONT-FAMILY: TimesNewRoman_q;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s6_3{
 	FONT-SIZE: 36.7px;
-	FONT-FAMILY: 'Times New Roman', Times, serif;
-	color: rgb(67,67,67);
+	FONT-FAMILY: TimesNewRoman_r;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s7_3{
 	FONT-SIZE: 49.1px;
-	FONT-FAMILY: 'Times New Roman', Times, serif;
-	color: rgb(67,67,67);
+	FONT-FAMILY: TimesNewRoman_r;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s8_3{
 	FONT-SIZE: 49.1px;
-	FONT-FAMILY: TimesNewRoman_p;
-	color: rgb(67,67,67);
+	FONT-FAMILY: TimesNewRoman_q;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s9_3{
-	FONT-SIZE: 67.5px;
-	FONT-FAMILY: Calibri_5;
-	color: rgb(0,0,0);
+	FONT-SIZE: 55px;
+	FONT-FAMILY: TimesNewRoman-Bold_12;
+	color: rgba(255, 255, 255, 0);
 }
 
 .s10_3{
-	FONT-SIZE: 49.1px;
-	FONT-FAMILY: 'Times New Roman', Times, serif;
-	color: rgb(0,0,255);
+	FONT-SIZE: 55px;
+	FONT-FAMILY: Symbol__;
+	color: rgba(255, 255, 255, 0);
 }
 
-#form1_3{	z-index:2;	cursor: pointer;	border-style:none;	position: absolute;	left:283px;	top:475px;	width:121px;	height:32px;	text-align:left;	background: transparent;	font:normal 24px Arial, Helvetica, sans-serif;}
+.s11_3{
+	FONT-SIZE: 55px;
+	FONT-FAMILY: CourierNew_14;
+	color: rgba(255, 255, 255, 0);
+}
+
+.s12_3{
+	FONT-SIZE: 67.5px;
+	FONT-FAMILY: Calibri_6;
+	color: rgba(255, 255, 255, 0);
+}
+
+#form1_3{	z-index: 2; cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 283px;	top: 727px;	width: 92px;	height: 31px;	text-align: left;	background: transparent;	font: normal 24px Arial, Helvetica, sans-serif;}
+#form2_3{	z-index: 2; cursor: pointer; border-style: none;	padding: 0px;	position: absolute;	left: 281px;	top: 669px;	width: 112px;	height: 32px;	text-align: left;	background: transparent;	font: normal 24px Arial, Helvetica, sans-serif;}
+#form3_3{	z-index: 2; cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 281px;	top: 700px;	width: 121px;	height: 31px;	text-align: left;	background: transparent;	font: normal 24px Arial, Helvetica, sans-serif;}
 
 </style>
 <!-- End inline CSS -->
@@ -151,18 +184,38 @@
 <style id="fonts3" type="text/css" >
 
 @font-face {
-	font-family: TimesNewRoman_p;
-	src: url("fonts/TimesNewRoman_p.woff") format("woff");
+	font-family: TimesNewRoman_q;
+	src: url("fonts/TimesNewRoman_q.woff") format("woff");
 }
 
 @font-face {
-	font-family: CalibriLight_h;
-	src: url("fonts/CalibriLight_h.woff") format("woff");
+	font-family: TimesNewRoman_r;
+	src: url("fonts/TimesNewRoman_r.woff") format("woff");
 }
 
 @font-face {
-	font-family: Calibri_5;
-	src: url("fonts/Calibri_5.woff") format("woff");
+	font-family: Symbol__;
+	src: url("fonts/Symbol__.woff") format("woff");
+}
+
+@font-face {
+	font-family: CourierNew_14;
+	src: url("fonts/CourierNew_14.woff") format("woff");
+}
+
+@font-face {
+	font-family: Calibri_6;
+	src: url("fonts/Calibri_6.woff") format("woff");
+}
+
+@font-face {
+	font-family: CalibriLight_i;
+	src: url("fonts/CalibriLight_i.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRoman-Bold_12;
+	src: url("fonts/TimesNewRoman-Bold_12.woff") format("woff");
 }
 
 </style>
@@ -170,7 +223,7 @@
 
 <!-- Begin page background -->
 <div id="pg3Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
-<div id="pg3" style="-webkit-user-select: none;"><object width="909" height="1286" data="3/3.svg" type="image/svg+xml" id="pdf3" style="width:909px; height:1286px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object></div>
+<div id="pg3" style="-webkit-user-select: none;"><object width="909" height="1286" data="3/3.svg" type="image/svg+xml" id="pdf3" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
 <!-- End page background -->
 
 
@@ -186,51 +239,64 @@
 <div id="t9_3" class="t s3_3">EDUCATION </div>
 <div id="ta_3" class="t s4_3">UNIVERSITY OF ORADEA </div>
 <div id="tb_3" class="t s4_3">Informatics </div>
-<div id="tc_3" class="t s5_3">“DON ORIONE” HIGH SCHOOL, ORADEA</div>
-<div id="td_3" class="t s4_3">Mathematics - Informatics </div>
-<div id="te_3" class="t s4_3">BACHELOR DEGREE </div>
-<div id="tf_3" class="t s4_3">GRADUATE </div>
-<div id="tg_3" class="t s4_3">2007 - 2010 </div>
-<div id="th_3" class="t s4_3">HIGH SCHOOL DIPLOMA </div>
-<div id="ti_3" class="t s4_3">GRADUATE </div>
-<div id="tj_3" class="t s4_3">2003 - 2007 </div>
-<div id="tk_3" class="t s3_3">AWARDS </div>
-<div id="tl_3" class="t s4_3">2</div>
-<div id="tm_3" class="t s6_3">nd</div>
-<div id="tn_3" class="t s4_3">Place </div>
-<div id="to_3" class="t s5_3">–</div>
-<div id="tp_3" class="t s5_3">Leaf Knight’s Adventure</div>
-<div id="tq_3" class="t s7_3">2015 </div>
-<div id="tr_3" class="t s8_3">GameDev.Ro “LEAF” Challenge </div>
-<div id="ts_3" class="t s7_3">Contest </div>
-<div id="tt_3" class="t s4_3">1</div>
-<div id="tu_3" class="t s6_3">st</div>
-<div id="tv_3" class="t s4_3">Place </div>
-<div id="tw_3" class="t s5_3">–</div>
-<div id="tx_3" class="t s4_3">Super Santa Bros </div>
-<div id="ty_3" class="t s7_3">2013 </div>
-<div id="tz_3" class="t s7_3">GameDev.Ro </div>
-<div id="t10_3" class="t s8_3">“Santa Versus </div>
+<div id="tc_3" class="t s5_3">“DON ORIONE” </div>
+<div id="td_3" class="t s4_3">HIGH SCHOOL, ORADEA </div>
+<div id="te_3" class="t s4_3">Mathematics - Informatics </div>
+<div id="tf_3" class="t s4_3">BACHELOR DEGREE </div>
+<div id="tg_3" class="t s4_3">GRADUATE </div>
+<div id="th_3" class="t s4_3">2007 - 2010 </div>
+<div id="ti_3" class="t s4_3">HIGH SCHOOL DIPLOMA </div>
+<div id="tj_3" class="t s4_3">GRADUATE </div>
+<div id="tk_3" class="t s4_3">2003 - 2007 </div>
+<div id="tl_3" class="t s3_3">AWARDS </div>
+<div id="tm_3" class="t s4_3">2</div>
+<div id="tn_3" class="t s6_3">nd</div>
+<div id="to_3" class="t s4_3">Place </div>
+<div id="tp_3" class="t s5_3">–</div>
+<div id="tq_3" class="t s5_3">Leaf Knight’s Adventure</div>
+<div id="tr_3" class="t s7_3">2015 </div>
+<div id="ts_3" class="t s8_3">GameDev.Ro “LEAF” Challenge </div>
+<div id="tt_3" class="t s7_3">Contest </div>
+<div id="tu_3" class="t s4_3">1</div>
+<div id="tv_3" class="t s6_3">st</div>
+<div id="tw_3" class="t s4_3">Place </div>
+<div id="tx_3" class="t s5_3">–</div>
+<div id="ty_3" class="t s4_3">Super Santa Bros </div>
+<div id="tz_3" class="t s7_3">2013 </div>
+<div id="t10_3" class="t s8_3">GameDev.Ro “Santa Versus </div>
 <div id="t11_3" class="t s8_3">[Someone]” Challenge Contest</div>
 <div id="t12_3" class="t s3_3">LANGUAGE </div>
-<div id="t13_3" class="t s9_3">PERSONAL </div>
-<div id="t14_3" class="t s9_3">PROJECTS </div>
-<div id="t15_3" class="t s10_3">http://GameDevIs.Cool</div>
-<div id="t16_3" class="t s4_3">SELF TAUGHT </div>
-<div id="t17_3" class="t s4_3">2007 - PRESENT </div>
-<div id="t18_3" class="t s5_3">“</div>
-<div id="t19_3" class="t s4_3">To learn something new is a timeless pleasure and a valuable treasure. And not all things that you learn </div>
-<div id="t1a_3" class="t s4_3">are taught to you, but many things that you learn you realize you have taught yourself.</div>
-<div id="t1b_3" class="t s5_3">”</div>
-<div id="t1c_3" class="t s5_3">–</div>
-<div id="t1d_3" class="t s4_3">C. JoyBell C.</div>
+<div id="t13_3" class="t s9_3">SOFTPARC 2007 - 2009 </div>
+<div id="t14_3" class="t s10_3"></div>
+<div id="t15_3" class="t s9_3">Developer</div>
+<div id="t16_3" class="t s4_3">Responsible of developing applications following the analysis offered by other team members </div>
+<div id="t17_3" class="t s4_3">Casino Video Games:</div>
+<div id="t18_3" class="t s11_3">o</div>
+<div id="t19_3" class="t s4_3">Developed the graphic user interface and gameplay mechanics of 3 Casino video </div>
+<div id="t1a_3" class="t s4_3">games </div>
+<div id="t1b_3" class="t s11_3">o</div>
+<div id="t1c_3" class="t s4_3">Tools and technologies used: Visual Studio Team System, C#, Managed Direct X </div>
+<div id="t1d_3" class="t s12_3">PERSONAL </div>
+<div id="t1e_3" class="t s12_3">PROJECTS </div>
+<div id="t1f_3" class="t s7_3">http://GameDevIs.Cool</div>
+<div id="t1g_3" class="t s4_3">SELF TAUGHT </div>
+<div id="t1h_3" class="t s4_3">2007 - PRESENT </div>
+<div id="t1i_3" class="t s5_3">“</div>
+<div id="t1j_3" class="t s4_3">To learn something new is a timeless pleasure and a valuable treasure. And not all things that you learn </div>
+<div id="t1k_3" class="t s4_3">are taught to you, but many things that you learn you realize you have taught yourself.</div>
+<div id="t1l_3" class="t s5_3">” –</div>
+<div id="t1m_3" class="t s4_3">C. JoyBell C.</div>
+<div id="t1n_3" class="t s7_3">https://randomfiles.io</div>
+<div id="t1o_3" class="t s7_3">http://DevIs.Cool</div>
 
 <!-- End text definitions -->
 
 
 <!-- Begin Form Data -->
 <form>
-<input type="button"  tabindex="1"  id="form1_3" data-objref="63 0 R" title="http://gamedevis.cool/" onclick="window.open('http://gamedevis.cool/','_blank');" />
+<input type="button" tabindex="1" id="form1_3" data-objref="63 0 R" title="http://devis.cool/" onclick="window.open('http://devis.cool/','_blank');">
+<input id="form2_3" type="button" tabindex="3" data-objref="65 0 R" title="https://randomfiles.io" onclick="window.open('https://randomfiles.io','_blank');"/>
+<input id="form3_3" type="button" tabindex="2" data-objref="64 0 R" title="http://gamedevis.cool/" onclick="window.open('http://gamedevis.cool/','_blank');"/>
 
 </form>
 <!-- End Form Data -->
